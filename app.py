@@ -9,7 +9,7 @@ st.set_page_config(
 
 # 2. Sidebar Component (Width & Navigation)
 with st.sidebar:
-  st.title("📚 EduPulse AI")
+  st.title("EduSpark")
   st.markdown("---")
   st.markdown("📊 Dashboard Overview")
   st.markdown("🔍 Cluster Analytics")
@@ -75,4 +75,3 @@ for cluster in clusters:
         st.markdown(f"- {q}")
 
     st.markdown("---")
-    
