@@ -9,7 +9,7 @@ st.set_page_config(
 
 # 2. Sidebar Component (Width & Navigation)
 with st.sidebar:
-  st.title("EduSpark")
+  st.title("EDUSPARK")
   st.markdown("---")
   st.markdown("📊 Dashboard Overview")
   st.markdown("🔍 Cluster Analytics")
