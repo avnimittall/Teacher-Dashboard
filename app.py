@@ -11,9 +11,9 @@ st.set_page_config(
 with st.sidebar:
   st.title("📚 EduPulse AI")
   st.markdown("---")
-  st.page_link("", label="Dashboard Overview", icon="📊")
-  st.page_link("", label="Cluster Analytics", icon="🔍")
-  st.page_link("", label="Student Questions", icon="💬")
+  st.markdown("📊 Dashboard Overview")
+  st.markdown("🔍 Cluster Analytics")
+  st.markdown("💬 Student Questions")
   st.markdown("---")
   st.info("Phase 1 UI Connected to Phase 4 Schema")
 
@@ -75,3 +75,4 @@ for cluster in clusters:
         st.markdown(f"- {q}")
 
     st.markdown("---")
+    
